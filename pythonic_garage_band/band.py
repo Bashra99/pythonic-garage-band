@@ -23,6 +23,7 @@ class Musician():
         
 
 class Band(Musician):
+    
 
     instances=[]
     def __init__(self,name,members):
@@ -45,6 +46,17 @@ class Band(Musician):
 
 
 class Bassist(Musician):
+    '''
+     child class from parent class(Musician)
+     instance attribute  name = > str  
+       methods:
+        1. __init__ 
+        2. __str__
+        3. __repr__
+        4. get_instrument
+        5. play_solo
+    '''
+    
     def __init__(self,name):
         super().__init__()
         self.name=name
@@ -63,6 +75,16 @@ class Bassist(Musician):
 
 
 class Drummer(Musician):
+    '''
+     child class from parent class(Musician)
+     instance attribute  name = > str  
+       methods:
+        1. __init__ 
+        2. __str__
+        3. __repr__
+        4. get_instrument
+        5. play_solo
+    '''
     def __init__(self,name):
         super().__init__()
         self.name=name
@@ -79,7 +101,18 @@ class Drummer(Musician):
     def play_solo(self):
         return "rattle boom crash"
 
+
 class Guitarist(Musician):
+    '''
+     child class from parent class(Musician)
+     instance attribute  name = > str  
+       methods:
+        1. __init__ 
+        2. __str__
+        3. __repr__
+        4. get_instrument
+        5. play_solo
+    '''
     def __init__(self,name):
         super().__init__()
         self.name=name
