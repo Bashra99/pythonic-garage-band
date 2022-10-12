@@ -1,6 +1,6 @@
 # LAB - Class 05
 ## Project: pythonic_garage_band
-##Author: Bashar Telfah
+## Author: Bashar Telfah
 ### Setup
 
 How to initialize/run your application
